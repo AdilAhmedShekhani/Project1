@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    width: 100%;
+    padding: 0px 20px 10px 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: #333332;
+    
+
+}
+
+#search {
+    width: 400px;
+    border-radius: 20px;
+    height: 30px;
+}
+
+.secnav {
+    text-align: center;
+    width: 100%;
+    background-color: cornsilk;
+    padding: 10px 0px 0px 0px;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+
+.alink {
+    color: red;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.alink:hover {
+    color: white;
+}
+
+.a2link {
+    color: red;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.a2link:hover {
+    color: gold;
+}
+
+.a3link {
+    color: red;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.a3link:hover {
+    color: black;
+}
+
+.a4link {
+    color: blue;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.a4link:hover {
+    color: yellow;
+}
+
+.a5link {
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.a5link:hover {
+    color: red;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav ul li a :hover .dropdown_menu ul li{
+    transition: all 0.5s;
+    overflow: hidden;
+    
+}
+nav ul li {
+    list-style: none;
+    padding: 10px 20px;
+    position: relative;
+    list-style: none;
+}
+
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.body2 {
+    display: grid;
+    place-items: center;
+    /* width: 100%; */
+    height: 450px;
+    background-color: #333332;
+
+}
+
+.imgslider {
+    width: 60%;
+    height: 450px;
+    background-image: url("/iphone4.png");
+    background-size: 100% 100%;
+    animation: changeimg 20s linear infinite;
+}
+
+@keyframes changeimg {
+
+    20% {
+        background-image: url(/I\ WATCH.png);
+    }
+
+    45% {
+        background-image: url(/img1.png);
+    }
+
+    70% {
+        background-image: url(/iphone2.png);
+    }
+
+    100% {
+        background-image: url(/iphone1.png);
+    }
+
+}
+
+.iphones {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 10px;
+
+    /* width: 100%; */
+    height: 500px;
+}
+
+.phoneitm1 {
+    margin: 0PX 5PX 0PX 5PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    background-image: url(/iphone-14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.phoneitm2 {
+    margin: 0PX 5PX 0PX 5PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    background-image: url(/watch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.iphones2 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 10px 10px;
+
+    /* width: 100%; */
+    height: 434px;
+    overflow: hidden;
+}
+
+
+.phoneitm3 {
+    margin: 0PX 5PX 0PX 5PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 50%;
+    background-color: #F5F5F7;
+}
+
+
+.phoneitm4 {
+    margin: 0PX 5PX 0PX 5PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 50%;
+    background-color: #F5F5F7;
+
+}
+
+div>img {
+    width: 40%;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+img:hover {
+    width: 60%;
+}
+
+.div8>ol {
+    list-style: none;
+}
+
+.lk {
+    color: blue;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.lk:hover {
+    color: red;
+}
+
+.div8 {
+    width: 80%;
+    height: 40%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fotlink {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 55px;
+
+}
+
+.links>ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.ao {
+    color: blue;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.ao:hover {
+    color: red;
+}
+
+.links {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.div13 {
+    word-spacing: 10px;
+    position: absolute;
+    top: 2300px;
+    height: 50px;
+    width: 80%;
+    left: 180px;
+}
+
+.div14 {
+    margin-top: -25px;
+    display: flex;
+    margin-left: -90px;
+    justify-content: space-evenly;
+    background-color: black;
+    color: #F5F5F7;
+    position: absolute;
+    top: 2350px;
+    height: 50px;
+    width: 90%;
+    left: 97px;
+    padding: 0px 43px 0px 80px;
+}
+
+
+.img1iphone{
+    text-align: center;
+}
+h1{text-align: center;
+}
+.img2iphone{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.img3iphone{
+    text-align: center;
+}
+.img4iphone{
+    text-align: center;
+}
+.img5iphone{
+    text-align: center;
+}
+.img6iphone{
+    text-align: center;
+}
+.img7iphone{
+    text-align: center;
+}
+.img8iphone{
+    text-align: center;
+}
+.img9iphone{
+    text-align: center;
+    
+}
+.img10iphone{
+    text-align: center;
+    margin-left: 110px;
+}
+.div15{
+    position: absolute;
+    top: 4070px;
+    word-spacing: 10px;
+    position: absolute;
+    /* top: 2300px; */
+    height: 50px;
+    width: 80%;
+    left: 180px;
+
+    margin-top: -25px;
+    display: flex;
+    margin-left: -90px;
+    justify-content: space-evenly;
+    background-color: black;
+    color: #F5F5F7;
+    position: absolute;
+    /* top: 2350px; */
+    height: 50px;
+    width: 90%;
+    left: 97px;
+    padding: 0px 43px 0px 80px;
+}
